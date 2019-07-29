@@ -17,6 +17,7 @@
 		7533B91422EF17A700A0E4B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7533B91222EF17A700A0E4B9 /* LaunchScreen.storyboard */; };
 		7533B91F22EF17A700A0E4B9 /* SpaceDefenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7533B91E22EF17A700A0E4B9 /* SpaceDefenderTests.swift */; };
 		7533B92A22EF17A700A0E4B9 /* SpaceDefenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7533B92922EF17A700A0E4B9 /* SpaceDefenderUITests.swift */; };
+		7533B93922EF27CE00A0E4B9 /* bullet-fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7533B93822EF27CD00A0E4B9 /* bullet-fire.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7533B92522EF17A700A0E4B9 /* SpaceDefenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceDefenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7533B92922EF17A700A0E4B9 /* SpaceDefenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceDefenderUITests.swift; sourceTree = "<group>"; };
 		7533B92B22EF17A700A0E4B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7533B93722EF1F0500A0E4B9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7533B93822EF27CD00A0E4B9 /* bullet-fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bullet-fire.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +110,13 @@
 				7533B90522EF17A400A0E4B9 /* GameScene.sks */,
 				7533B90722EF17A400A0E4B9 /* Actions.sks */,
 				7533B90922EF17A400A0E4B9 /* GameScene.swift */,
+				7533B93822EF27CD00A0E4B9 /* bullet-fire.mp3 */,
 				7533B90B22EF17A400A0E4B9 /* GameViewController.swift */,
 				7533B90D22EF17A400A0E4B9 /* Main.storyboard */,
 				7533B91022EF17A700A0E4B9 /* Assets.xcassets */,
 				7533B91222EF17A700A0E4B9 /* LaunchScreen.storyboard */,
 				7533B91522EF17A700A0E4B9 /* Info.plist */,
+				7533B93722EF1F0500A0E4B9 /* README.md */,
 			);
 			path = SpaceDefender;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			files = (
 				7533B90F22EF17A400A0E4B9 /* Main.storyboard in Resources */,
 				7533B90622EF17A400A0E4B9 /* GameScene.sks in Resources */,
+				7533B93922EF27CE00A0E4B9 /* bullet-fire.mp3 in Resources */,
 				7533B91122EF17A700A0E4B9 /* Assets.xcassets in Resources */,
 				7533B91422EF17A700A0E4B9 /* LaunchScreen.storyboard in Resources */,
 				7533B90822EF17A400A0E4B9 /* Actions.sks in Resources */,
@@ -446,6 +452,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SpaceDefender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,6 +470,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SpaceDefender/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
